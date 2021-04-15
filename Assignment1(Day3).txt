@@ -1,0 +1,34 @@
+					Assignment 1 | 14th April 2021
+Question 1
+Do Slice operation on the following question.
+● const michael = "People say I'm the best boss."
+	○ michael.length :- 29
+	○ michael.slice(15) :-the best boss.
+	○ michael.slice(11, 29):-I'm the best boss.
+	○ michael.slice(11, -1):-I'm the best boss
+	○ michael.slice(-5):-boss.
+	○ michael.slice(-10, -6):-best
+
+Question 2
+Try out the array methods listed below.
+● let dukeOfHastingsSays = "I burn for you."
+	○ let newArray = dukeOfHastingsSays.toLowerCase().split(" ")
+■ newArray = ["i","burn","for","you."]
+	○ let newStringWithSpace = newArray.join(" ")
+■ newStringWithSpace = "i burn for you."
+	○ let newStringWithoutSpace = newArray.join("")
+■ newStringWithoutSpace = "iburnforyou."
+
+Question 3
+Do Splice operation for the following questions.
+● let starHollows = ['Lorelai', 'Rory', 'Luke', 'Lane', 'Kirk', 'Taylor'];
+	○ let removed = starHollows.splice(1); =['Rory', 'Luke', 'Lane', 'Kirk', 'Taylor']
+● let beverlyHillsGang = ['Brandon', 'Brenda', 'Dylan', 'Andrea', 'Steve', 'Kelly', 'Donna',
+'David'];
+	○ let removed = beverlyHillsGang.splice(1, 2); =['Brenda', 'Dylan']
+● let seinfeld = ['Jerry', 'George', 'Kramer', 'Newman', 'Elaine'];
+	○ let removed = seinfeld.splice(-2, 1); =['Newman']
+● let brooklynNineNine = ['Jake', 'Amy', 'Charles','Rosa', 'Captain Holt', 'Gina', 'Terry'];
+	○ let removedAndInserted = brooklynNineNine.splice(5, 1, 'Hitchcock', 'Scully');=['Gina']
+● let friends = ['Ross', 'Rachel', 'Joey', 'Chandler', 'Monica', 'Phoebe'];
+	○ let insertedOnly = friends.splice(1, 0, 'Gunther', 'Carol', 'Susan')=[]
